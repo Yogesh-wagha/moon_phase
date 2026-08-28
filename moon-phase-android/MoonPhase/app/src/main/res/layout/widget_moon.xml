@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/widget_root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/widget_bg"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="6dp">
+
+    <ImageView
+        android:id="@+id/widget_moon_image"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:adjustViewBounds="true"
+        android:contentDescription="@string/widget_label"
+        android:scaleType="fitCenter"
+        android:src="@drawable/ic_moon_preview" />
+
+    <TextView
+        android:id="@+id/widget_percent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="monospace"
+        android:text="—"
+        android:textColor="#F2EFE6"
+        android:textSize="17sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/widget_phase"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="1dp"
+        android:maxLines="1"
+        android:text="@string/app_name"
+        android:textColor="#E8B463"
+        android:textSize="10sp" />
+</LinearLayout>

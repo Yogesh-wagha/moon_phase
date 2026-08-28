@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Moon Phase</string>
+    <string name="widget_label">Moon Phase</string>
+    <string name="widget_description">Tonight\'s moon, drawn with its illuminated fraction.</string>
+</resources>
